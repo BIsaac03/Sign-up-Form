@@ -10,34 +10,41 @@
 <body>
     <div class="sidebar">
         <div class="background">
-            <p class="name">[Name]</p>
+            <div class="img logo">
+                <img src="logo.png" class="logo">
+            </div>
+            <p class="name">Astra</p>
         </div>
-        <footer class="attribution">[Attribution]</footer>
+        <footer class="attribution">Image attribution: <a href="https://www.eso.org/public/images/eso1625a/">ESO/H. Drass et al.</a></footer>
     </div>
     <div class="main">
-        <div class="first">
+        <div class="first section">
             <p>[Intro Paragraph]</p>
         </div>
-        <div class="second"></div>
-        <p>Let's do this!</p>
-        <form action="example.com/path" method="post">
-            <label for="first-name">FIRST NAME</label>
-            <input type="text" id="first-name">
-            <label for="last-name">LAST NAME</label>
-            <input type="text" id="last-name">
-            <label for="email">EMAIL</label>
-            <input type="text" id="email">
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="text" id="phone-number">
-            <label for="password">PASSWORD</label>
-            <input type="text" id="password">
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="text" id="confirm-password">
-        </form>
-        <div class="third">
-            <button id="submit"></button>
-            <p>Already have an account?<span>Log in</span></p>
-            
+        <div class="second section">
+            <p>Let's do this!</p>
+            <form action="example.com/path" method="post">
+                <div class="left column">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name">
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email"> 
+                    <label for="password">PASSWORD</label>
+                    <input type="text" id="password">               
+                </div>
+                <div class="right column">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="text" id="phone-number">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="text" id="confirm-password">
+                </div>
+            </form>
+        </div>
+        <div class="third section">
+            <button id="submit">Create Account</button>
+            <p>Already have an account?<a href="log-in-link">  Log in</a></p>
         </div>
     </div>
 </body>

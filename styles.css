@@ -1,0 +1,120 @@
+@font-face {
+    font-family: SciFi-Font;
+    src: url(Sakana.ttf);
+  }
+
+
+body{
+    display: flex;
+    background-color: hsl(223, 26%, 95%);
+}
+
+div.sidebar{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url("background_space.jpg");
+    width: 700px;
+    height: 900px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.sidebar .background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    background-color: rgb(255,255,255,0.5);
+    text-align: center;
+    font-size: 48px;
+    width: 100%;
+    padding: 10px;
+    padding-right: 50px;
+    font-family: SciFi-Font;
+    color: rgb(60, 60, 60);
+}
+
+img.logo{
+    width:150px;
+    text-decoration: none;
+}
+
+.attribution a{
+    color: white;
+}
+
+
+div.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    font-size:28px;
+}
+
+.section{
+    padding-left: 50px;
+}
+
+.first{
+    padding-bottom: 50px;
+}
+
+
+.second{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+form{
+    display: flex;
+}
+
+div.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.left.column{
+    margin-right: 25px;
+}
+
+label{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input{
+    border-color: #E5E7EB;
+    width:250px;
+    height: 32px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+
+.third{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+button{
+    background-color: #596D48;
+    color:aliceblue;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    width: 225px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p a{
+    text-decoration: none;
+}
