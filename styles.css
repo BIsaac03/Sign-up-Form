@@ -10,7 +10,7 @@
 
 body{
     display: flex;
-    background-color: hsl(223, 26%, 95%);
+    background-color: rgba(110, 0, 0, 0.1);
     height: 98vh;
 }
 
@@ -36,8 +36,7 @@ div.sidebar{
     text-align: center;
     font-size: 48px;
     width: 100%;
-    padding: 10px;
-    padding-right: 50px;
+    padding-top: 15px;
     font-family: SciFi-Font;
     color: rgb(60, 60, 60);
 }
@@ -68,7 +67,7 @@ div.main{
 }
 
 .second{
-    background-color: white;
+    background-color: #f7f2f2;
     padding-bottom: 30px;
     padding-top: 20px;
 }
@@ -119,7 +118,7 @@ input:focus{
 }
 
 button{
-    background-color: rgba(107, 8, 5, 0.616);
+    background-color: rgba(110, 0, 0, 0.6);
     color:aliceblue;
     margin-bottom: 40px;
     border-radius: 10px;
@@ -131,7 +130,7 @@ button{
 
 .third a{
     text-decoration: none;
-    color: rgba(107, 8, 5, 0.616);
+    color: rgba(110, 0, 0, 0.6);
     font-weight: bold;
     margin-bottom: 30px;
 }
