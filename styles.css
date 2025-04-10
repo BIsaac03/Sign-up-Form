@@ -3,9 +3,15 @@
     src: url(Sakana.ttf);
   }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     background-color: hsl(223, 26%, 95%);
+    height: 98vh;
 }
 
 div.sidebar{
@@ -13,11 +19,12 @@ div.sidebar{
     flex-direction: column;
     color: white;
     background-image: url("background_space.jpg");
+    background-size: cover;
+    padding-bottom: 2vh;
     width: 700px;
-    height: 900px;
+    height: 100%;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 20px;
 }
 
 .sidebar .background{
@@ -63,6 +70,7 @@ div.main{
 .second{
     background-color: white;
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 form{
@@ -72,6 +80,7 @@ form{
 div.column{
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
 }
 
 .left.column{
@@ -120,6 +129,9 @@ button{
     font-weight: bold;
 }
 
-p a{
+.third a{
     text-decoration: none;
+    color: rgba(107, 8, 5, 0.616);
+    font-weight: bold;
+    margin-bottom: 30px;
 }
