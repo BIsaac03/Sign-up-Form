@@ -3,7 +3,6 @@
     src: url(Sakana.ttf);
   }
 
-
 body{
     display: flex;
     background-color: hsl(223, 26%, 95%);
@@ -45,7 +44,6 @@ img.logo{
     color: white;
 }
 
-
 div.main{
     display: flex;
     flex-direction: column;
@@ -61,7 +59,6 @@ div.main{
 .first{
     padding-bottom: 50px;
 }
-
 
 .second{
     background-color: white;
@@ -95,7 +92,15 @@ input{
     font-size: 20px;
 }
 
+input[type="password"]:invalid{
+    border-color: red;
+}
 
+input:focus{
+    outline-color: transparent;
+    border-color: navy;
+    box-shadow: 4px 4px 4px black;
+}
 
 .third{
     display: flex;
@@ -105,7 +110,7 @@ input{
 }
 
 button{
-    background-color: #596D48;
+    background-color: rgba(107, 8, 5, 0.616);
     color:aliceblue;
     margin-bottom: 40px;
     border-radius: 10px;

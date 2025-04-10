@@ -19,31 +19,31 @@
     </div>
     <div class="main">
         <div class="first section">
-            <p>[Intro Paragraph]</p>
+            <p id="test">[Intro Paragraph]</p>
         </div>
         <div class="second section">
             <p>Let's do this!</p>
             <form action="example.com/path" method="post">
                 <div class="left column">
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name">
+                    <input type="text" id="first-name" required pattern="[A-Za-z]*">
                     <label for="email">EMAIL</label>
-                    <input type="text" id="email"> 
+                    <input type="email" id="email" required> 
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password">               
+                    <input type="password" id="password" required minlength="8">               
                 </div>
                 <div class="right column">
                     <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name">
+                    <input type="text" id="last-name" required pattern="[A-Za-z]*">
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input type="text" id="phone-number">
+                    <input type="tel" id="phone-number" required placeholder="1234567890" pattern="\d{10}">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-password">
+                    <input type="password" id="confirm-password" required minlength="8">
                 </div>
             </form>
         </div>
         <div class="third section">
-            <button id="submit">Create Account</button>
+            <button type="submit">Create Account</button>
             <p>Already have an account?<a href="log-in-link">  Log in</a></p>
         </div>
     </div>
